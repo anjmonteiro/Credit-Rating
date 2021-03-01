@@ -12,13 +12,13 @@ This project uses AI methods to find suitable corporate bonds for fixed income i
 The Nordic corporate bond market is illiquid and opaque which creates challenges for both buy and sell side market participants. This project explores different AI methods as a  way to better match buyers and sellers.  
 
 Specifically we're exploring models that
-* Predict which bonds an investor is likely to buy or sell based on parameters of its current holdings
+* Predict which bonds an investor is likely to buy or sell based on parameters of its current holdings and recent transactions
 * Identify cheap and expensive bonds based on sets of fundamental variables
 
 
 ## How is it used?
 
-The models will run as an app on Bloomberg's BQNT platform. The user will choose what fund or portfolio to analyze and certain parameters.
+The models will run as an app on Bloomberg's BQNT platform. The user will choose what fund or portfolio to analyze.
 
 
 ## Data sources and AI methods
@@ -27,14 +27,14 @@ The project runs on Bloomberg's BQNT platform and uses Bloomberg's data. It can 
 
 ## Challenges
 
-Although Bloomberg can be considered the best data source for bonds, the quality of the data is the single most important challenge. Many data items are missing or incorrect and all these challenges must be handled.  
+Although Bloomberg can be considered the best data source for bonds, the quality of the data is the single biggest challenge. Many data items are missing or incorrect and could lead to poor results. 
 
 ## What next?
 
-The project could eventually include different, complementing data sources. Company fundamentals would in an ideal world be forward looking analyst estimates but at this stage historical data is used. 
+The project could eventually use different, complementing data sources. Company data would in an ideal world be forward looking analyst estimates but at this stage historical data is used. 
 
 
 ## Acknowledgments
 
-* The introductions of Bloomberg's BQNT platform makes projects like this possible. BQNT combines Bloomberg's data and functions with the versatility of Python.   
+* The introduction of Bloomberg's BQNT platform makes projects like this possible. BQNT combines Bloomberg's data and functions with the versatility of Python.   
 
