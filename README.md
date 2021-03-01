@@ -4,7 +4,7 @@ Building AI course project.
 
 ## Summary
 
-This project uses AI methods to find suitable bonds for fixed income investors based on their current holdings. 
+This project uses AI methods to find suitable corporate bonds for fixed income investors based on their current holdings or user input. 
 
 
 ## Background
@@ -12,7 +12,7 @@ This project uses AI methods to find suitable bonds for fixed income investors b
 The Nordic corporate bond market is illiquid and opaque which creates challenges for both buy and sell side market participants. This project explores different AI methods as a  way to better match buyers and sellers.  
 
 Specifically we're exploring models that
-* Predict which bonds an investor is likely to buy based on parameters of its current holdings
+* Predict which bonds an investor is likely to buy or sell based on parameters of its current holdings
 * Identify cheap and expensive bonds based on sets of fundamental variables
 
 
@@ -23,11 +23,11 @@ The models will run as an app on Bloomberg's BQNT platform. The user will choose
 
 ## Data sources and AI methods
 
-The project runs on Bloomberg's BQNT platform and uses Bloomberg's data. It can only be used with a Bloomberg Professional licence. Sharing of any data is limited by Bloomberg's licence terms. 
+The project runs on Bloomberg's BQNT platform and uses Bloomberg's data. It can only be used with a Bloomberg Professional licence. Sharing of any data is limited by Bloomberg's licence agreement. 
 
 ## Challenges
 
-Although Bloomberg can be considered the best data source for bonds, the quality of the data is the single most important challenge. Many data items are missing or incorrect and all these challenges must be handled in some way.  
+Although Bloomberg can be considered the best data source for bonds, the quality of the data is the single most important challenge. Many data items are missing or incorrect and all these challenges must be handled.  
 
 ## What next?
 
