@@ -1,38 +1,33 @@
-# AI for fixed income
+# Credit ratings using AI
 
 Building AI course project.
 
 ## Summary
 
-This project uses AI methods to find suitable corporate bonds for fixed income investors based on their current holdings or user input. 
+This project uses AI methods to assign a credit rating to bond issuers not rated by rating agencies.  
 
 
 ## Background
 
-The Nordic corporate bond market is illiquid and opaque which creates challenges for both buy and sell side market participants. This project explores different AI methods as a  way to better match buyers and sellers.  
-
-Specifically we're exploring models that
-* Predict which bonds an investor is likely to buy or sell based on parameters of its current holdings and recent transactions
-* Identify cheap and expensive bonds based on sets of fundamental variables
+Most companies issuing bonds in the Nordic corporate bond market are not rated by any of the international rating agencies. It is, however, of interest to many market participants to have an objective measure of credit risk also for these companies. Assigning a credit rating is a complex task and this project only focuses on the numerical part of it. Specifically certain key ratios of non-rated companies are compared to those of rated companies in order to derive an implied credit rating.     
 
 
 ## How is it used?
 
-The models will run as an app on Bloomberg's BQNT platform. The user will choose what fund or portfolio to analyze.
+The models will run as an app on Bloomberg's BQNT platform. The user will choose a company to analyze and the model will return an implied credit rating based on ceratin assumptions.
 
 
 ## Data sources and AI methods
 
-The project runs on Bloomberg's BQNT platform and uses Bloomberg's data. It can only be used with a Bloomberg Professional licence. Sharing of any data is limited by Bloomberg's licence agreement. 
+The project runs on Bloomberg's BQNT platform and uses Bloomberg's data. It can only be used with a Bloomberg Professional licence. Sharing of any data is limited by Bloomberg's licence agreement. This app will not be used for any commercial purposes as it is solely a project for the Building AI course.  
 
 ## Challenges
 
-Although Bloomberg can be considered the best data source for bonds, the quality of the data is the single biggest challenge. Many data items are missing or incorrect and could lead to poor results. 
+Although Bloomberg can be considered the best data source for financial data, the quality of the data is the single biggest challenge. Many data items are missing or incorrect and could lead to poor results. 
 
 ## What next?
 
-The project could eventually use different, complementing data sources. Company data would in an ideal world be forward looking analyst estimates but at this stage historical data is used. 
-
+Assigning a credit rating is a complex task and this project only makes comparisons of numerical key ratios for different companies. The model could be developed to include also qualitative parameters and forward looking estimates instead of historical data but that is currently out of scope for this project.
 
 ## Acknowledgments
 
