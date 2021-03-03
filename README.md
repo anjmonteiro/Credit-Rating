@@ -14,7 +14,7 @@ Most companies issuing bonds in the Nordic corporate bond market are not rated b
 
 ## How is it used?
 
-The models will run as an app on Bloomberg's BQNT platform. The user will choose a company to analyze and the model will return an implied credit rating based on ceratin assumptions.
+The models will run on Bloomberg's BQNT platform. The user will choose a company to analyze and the model will return an implied credit rating based on certain assumptions.
 
 
 ## Data sources and AI methods
